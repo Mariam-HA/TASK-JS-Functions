@@ -3,13 +3,13 @@
  * Create a function named `printName`
  * - that just prints your name on the screen
  */
- let name = "mariam";
+ //let name = "mariam";
 
  function printName(name){
     console.log(`My name is ${name}`);
      return(name);
  }
-  printName(name);
+  printName("Mariam");
 
 /**
  * Task 2:
@@ -18,13 +18,13 @@
  * - and prints the age on the screen.
  * - Age = current year - birth
  */
- let birthYear = 1997;
+ //let birthYear = 1997;
  function printAge(birthYear){
     let age = 2023 - birthYear;
      console.log(`I am ${age} years old`);
      return(age);
  }
-  printAge(birthYear);
+  printAge(1997);
 /**
  * Task 3:
  * Create a function named `printHello`
