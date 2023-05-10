@@ -21,7 +21,7 @@
  let birthYear = 1997;
  function printAge(birthYear){
     let age = 2023 - birthYear;
-     console.log(`I am ${age} year old`);
+     console.log(`I am ${age} years old`);
      return(age);
  }
   printAge(birthYear);
