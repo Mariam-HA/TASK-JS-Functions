@@ -40,29 +40,29 @@
  function printHello(name , language){
  let massage;
      if (language === "english" ){
-         massage = console.log(`Hello ${name}`);
+        console.log(`Hello ${name}`);
      }
  
      else if (language === "spanish"){
-         massage = console.log(`Hola ${name}`);
+        console.log(`Hola ${name}`);
      }
  
      else if (language === "french"){
-         massage = console.log(`Bonjour ${name}`);
+        console.log(`Bonjour ${name}`);
  
      }
  
      else if (language === "Turkish"){
-         massage = console.log(`Merhaba ${name}`);
+        console.log(`Merhaba ${name}`);
  
      }
  
      else {
-         massage = console.log("Unknown language")
+        console.log("Unknown language")
      }
- return massage;
+ return name;
  }
- massage = printHello(name, language)
+ consol.log(printHello("Mariam", language))
 
 /**
  * Task 4:
